@@ -1,0 +1,40 @@
+{
+    "page": {
+        "title": "Login",
+        "orText": "OR"
+    },
+    "leftPanel": {
+        "tagline": "Join now and unlock immediate access to free shipping on every order, birthday surprises, exclusive product drops and more. And like your jeans, the benefits just keep getting better with time.",
+        "features": [
+            "Exclusive member-only pricing and offers",
+            "Free shipping on every order",
+            "Early access to new drops and sales",
+            "Personalized birthday rewards each year"
+        ]
+    },
+    "heading": {
+        "title": "Welcome",
+        "description": "Log in to continue",
+        "logoAltText": "Application Logo"
+    },
+    "footer": {
+        "signupActionText": "Don't have an account?",
+        "signupActionLinkText": "Sign Up"
+    },
+    "alternativeLogins": {
+        "continueWithText": "Continue with"
+    },
+    "loginForm": {
+        "selectCountryPlaceholder": "Select Country",
+        "captchaLabel": "CAPTCHA*",
+        "passwordLabel": "Password*",
+        "forgotPasswordLinkText": "Forgot password?",
+        "continueButtonText": "Continue"
+    },
+    "errors": {
+        "errorOccurred": "An error occurred",
+        "identifierRequired": "Identifier is required",
+        "passwordRequired": "Password is required",
+        "captchaCompletionRequired": "Please complete the CAPTCHA"
+    }
+}
