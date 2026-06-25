@@ -1,5 +1,6 @@
 {
   "name": "auth0-acul-sample-react",
+  "homepage": "https://github.io/duder61/levis_acul",
   "private": true,
   "version": "0.0.0",
   "license": "MIT",
@@ -17,7 +18,9 @@
     "lint": "eslint \"src/**/*.{ts,tsx}\" --fix --no-error-on-unmatched-pattern",
     "lint:check": "eslint \"src/**/*.{ts,tsx}\" --no-error-on-unmatched-pattern",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md,html,css}\" --ignore-unknown",
-    "prepare": "husky"
+    "prepare": "husky",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@auth0/auth0-acul-react": "1.0.0",
@@ -62,6 +65,7 @@
     "eslint-plugin-react-hooks": "5.2.0",
     "eslint-plugin-react-refresh": "0.4.20",
     "eslint-plugin-simple-import-sort": "12.1.1",
+    "gh-pages": "^6.3.0",
     "globals": "^16.3.0",
     "husky": "^9.1.7",
     "identity-obj-proxy": "^3.0.0",
